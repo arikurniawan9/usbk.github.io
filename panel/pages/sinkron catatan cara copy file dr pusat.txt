@@ -1,0 +1,21 @@
+Catatan Syncronisasi
+=================
+supaya file berhasil di copy perhatikan folder alamat tujuan
+prosedur:
+1. Klik System Server => Setting Server Pusat
+2. isikan nama folder pusat beesmart 
+contoh ==>
+Id Sekolah		: WU25512
+Nama Sekolah		: MADRASAH ALIYAH DIPONEGORO
+IP/Hostname Server Pusat: 192.168.1.250
+Folder Server Pusat 	: Beesmart3rev2 
+Nama Database		: beesmartv3_rev2
+Username Db		: ubk
+Pass Db Pusat		: ubk
+
+pada contoh diatas folder beesmart sebagai server pusat adalah "Beesmart3rev2"
+bila file beesmart diletakkan pada folder "beesmart" maka folder server pusat
+harus diubah juga menjadi "beesmart". bila tidak maka file tidak akan terdown load.
+
+untuk download pastikan batasan-batasan "php.ini" sudah diset maksimal
+minimal sesuaikan dengan file "php.ini" pada folder "beesmart3rev3/confing/php.ini" 
